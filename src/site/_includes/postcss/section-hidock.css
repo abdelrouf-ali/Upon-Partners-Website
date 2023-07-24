@@ -6,7 +6,7 @@
   background-image: linear-gradient(180deg, rgba(115,193,230,1) 0%, rgba(115,230,230,1) 50%, rgba(69,91,252,1) 100%);
   
   
-  color: #fff;
+  color: #202124;
   
   @media (max-width: 975px) {
     z-index: 1;
@@ -96,7 +96,7 @@
       left: 100px;
       height: 316px;
       width: 500px;
-      background-image: url(/assets/premium_photo-1684017836147-8e7281a7af8c.jpeg);
+      background-image: url(/assets/jenny-ueberberg-BaSeK7rwc1A-unsplash.jpg);
       background-size: auto 100%;
       background-repeat: no-repeat;
       background-position: center;

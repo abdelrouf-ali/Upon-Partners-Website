@@ -96,7 +96,7 @@
   
     &:nth-child(1) {
       top: -170px;
-      left: -20px;
+      left: 67px;
       height: 294px;
       
       transform: scale(.8, .8) rotate(-6deg);
@@ -119,6 +119,11 @@
       &:hover {
         transform: scale(1, 1) translateY(-16px) rotate(0deg);
       }
+
+      background-image: url(/assets/mostafa-kordzangeneh-VfAbOec57q8-unsplash.jpg);
+      background-position: center;
+      width: 550px;
+
     }
 
     &:nth-child(3) {

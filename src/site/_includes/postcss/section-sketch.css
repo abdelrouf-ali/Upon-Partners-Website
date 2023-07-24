@@ -66,10 +66,10 @@
       }
       
       &:nth-child(1) {
-        width: 555px;
-        height: 555px;
-        top: 66px;
-        left: 100px;
+        width: 570px;
+        height: 560px;
+        top: 23px;
+        left: 50px;
         background-image: url(/assets/instgram-icon.png);
         background-color: transparent;
         transform: scale(0.8, 0.8) translateY(-16px) rotate(10deg);
