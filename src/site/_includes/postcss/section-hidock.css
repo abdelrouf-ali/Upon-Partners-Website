@@ -108,6 +108,13 @@
       &:hover {
         transform: scale(1.1, 1.1) translateY(-16px) rotate(0deg);
       }
+
+
+      @media (max-width: 520px) { 
+        top: 148px;
+        left: 34px;
+
+      }
     }
 
     &:nth-child(2) {
@@ -117,6 +124,15 @@
       background-size: auto 100%;
       background-repeat: no-repeat;
       background-position: center;
+
+
+      @media (max-width: 520px) { 
+        
+        top: -126px;
+        left: 89px;
+    
+    
+          }
     }
   }
   

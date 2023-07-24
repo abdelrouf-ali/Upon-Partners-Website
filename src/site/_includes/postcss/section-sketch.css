@@ -79,14 +79,27 @@
           
           @media (max-width: 975px) {
             transform: scale(0.7, 0.7) translateY(-16px) rotate(0deg);
+
           }
         }
         
         @media (max-width: 975px) {
-          left: 0;
-          top: -60px;
+          left: -29px;
+          top: -99px;
           transform: scale(0.6, 0.6) translateY(-16px) rotate(10deg);
+          height: 563px;
+
         }
+
+        @media (max-width: 520px) {
+          left: -29px;
+          top: -122px;
+          transform: scale(0.6, 0.6) translateY(-16px) rotate(10deg);
+          height: 475px;
+
+        }
+
+
       }
     }
   }

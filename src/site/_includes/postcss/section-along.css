@@ -50,12 +50,12 @@
       min-height: 720px;
       margin-top: 64px;
       margin-bottom: 140px;
-      padding-bottom: 164px;
+      padding-bottom: 564px;
     }
 
     @media (max-width: 469px) {
       min-height: 764px;
-      padding-bottom: 120px;
+      padding-bottom: 560px;
     }
   }
 
@@ -90,6 +90,17 @@
         &:hover {
           transform: scale(.8, .8) translateY(-16px) rotate(2deg);
         } 
+
+        @media (max-width: 469px) {
+          top: 151px;
+
+        }
+
+
+        @media (max-width: 975px) { 
+          top: 293px;
+       }
+
       }
       
       &:nth-child(3) {
@@ -106,6 +117,19 @@
         &:hover {
           transform: scale(.8, .8) translateY(-16px) rotate(2deg);
         } 
+
+        @media (max-width: 520px) { 
+          height: 421px;
+          width: 375px;
+          top: -40px;
+          right: -117px;
+       }
+
+       @media (max-width: 975px) { 
+        top: -37px;
+        right: -104px;
+     }
+
       }
     }
     

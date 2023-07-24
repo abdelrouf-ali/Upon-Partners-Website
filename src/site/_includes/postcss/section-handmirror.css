@@ -124,6 +124,11 @@
       background-position: center;
       width: 550px;
 
+      @media (max-width: 520px) { 
+         top: 245px;
+         left: 16px;
+
+      }
     }
 
     &:nth-child(3) {

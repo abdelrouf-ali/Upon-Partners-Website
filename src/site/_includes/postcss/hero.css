@@ -107,10 +107,18 @@
  }
 }
 
-@media (max-width: 900px) {
-  
+@media (max-width: 975px) {
+
+
+  .big-hero-six .main-content-wrapper {
+    top: -134px;
+
+  }
   .big-hero-six .background {
-    bottom: -64px;
+    bottom: -107px;
+    left: 15%;
+
+   
   }
 }
 
@@ -123,7 +131,9 @@
 @media (max-width: 520px) {
   
   .big-hero-six .main-content-wrapper {
-    align-items: center;
+    align-items: start;
+    top: -208px;
+
     justify-content: flex-start;
     font-size: 16px;
   }
@@ -131,5 +141,12 @@
   .big-hero-six h1 {
     font-size: 42px;
     margin: 4px 0 4px 0;
+  }
+
+
+  .big-hero-six .background {
+   
+    bottom: -64px;
+    left: -33%;
   }
 }

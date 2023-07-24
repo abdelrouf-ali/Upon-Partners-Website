@@ -33,12 +33,12 @@
 	  align-items: center;
 	  min-height: 0;
 	  margin-top: 64px;
-	  margin-bottom: 104px;
+	  padding-bottom: 654px;
 	}
 
-	@media (max-width: 469px) {
+	@media (max-width: 520px) {
 	  min-height: 790px;
-	  padding-bottom: 10px;
+	  padding-bottom: 650px;
 	}
   }
   
@@ -53,15 +53,15 @@
 	.video-card {
 		position: absolute;
 		width: auto;
-		height: auto;
+		height: 477px;
 		overflow: hidden;
-		top: -104px;
-		right: -184px;
+		top: -267px;
+		right: -286px;
 		z-index: 2;
-		border-radius: 56px;
+		/* border-radius: 56px; */
 		
 		transform: scale(.8, .8) rotate(10deg);
-		box-shadow: 0px 4px 24px 2px rgba(14, 30, 37, 0.16);
+		/* box-shadow: 0px 4px 24px 2px rgba(14, 30, 37, 0.16); */
 		z-index: 2;
 		
 		&:hover {
@@ -74,6 +74,22 @@
 			border-radius: 60px;
 			width: 320px;
 		}
+
+		@media (max-width: 469px) {
+			height: 427px;
+			overflow: hidden;
+			top: 11px;
+			right: -323px;
+		  }
+
+
+		  @media (max-width: 975px) {
+			top: 11px;
+
+
+		  }
+		
+
 	}
   }
   
@@ -82,13 +98,28 @@
 	  background-size: cover;
 	  
 	  &:nth-child(3) {
-		  top: 264px;
-		  left: -140px;
-		  height: 300px;
-		  width: 300px;
-		  border-radius: 22%;
-		  background-image: url(/assets/booby-track-app-icon.png);
-		  background-color: transparent;
+			top: 67px;
+			left: -397px;
+			height: 331px;
+			width: 498px;
+		  	/* border-radius: 22%; */
+		 	background-image: url(/assets/jenny-ueberberg-Kmng_fCg0Ko-unsplash.jpg);
+		 	 background-color: transparent;
+
+			  @media (max-width: 469px) {
+				top: 312px;
+				left: -305px;
+			  }
+
+
+
+			  @media (max-width: 975px) {
+				top: 327px;
+			
+			  }
+
+			 
+		  
 		}
   }	
 }
