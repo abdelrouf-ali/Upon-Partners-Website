@@ -11,8 +11,8 @@
   .main-content-wrapper {
     align-items: center;
     padding-bottom: 30px;
-    min-height: 730px;
-    margin-top: -40px;
+    min-height: 530px;
+    margin-top: 25px;
   }
 
   .content {
@@ -48,7 +48,7 @@
 
 .people-id-like-to-meet {
   ul {
-    column-count: 5;
+    column-count: 2;
     column-width: 190px;
   }
 
