@@ -47,10 +47,25 @@ nav {
   @media (max-width: 975px) { margin-left: 14%; }
 
   @media (max-width: 520px) { margin-left: 26%; }
-
-
   
 }
+.inline-logo {
+
+  width: 30%;
+  margin-bottom: -20px;
+}
+
+.inline-logo-small {
+
+  width: 100px;
+  margin-bottom: -18px;
+
+
+  @media (max-width: 975px) {  width: 18%; }
+
+  @media (max-width: 520px) {  width: 22%; }
+}
+
 
 h1 {
   font-family: var(--rounded);
