@@ -1,6 +1,3 @@
-# Rafa's site
-
-This is the repo for my personal website 👋
 
 ## Develop locally
 If you wish to run this site locally, clone it, and run:
