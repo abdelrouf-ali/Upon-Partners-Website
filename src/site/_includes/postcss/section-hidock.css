@@ -1,0 +1,145 @@
+.hidock {
+  position: relative;
+  z-index: 2;
+  background-image: linear-gradient(180deg, rgba(115,193,230,1) 0%, rgba(115,230,230,1) 50%, rgba(69,202,252,1) 100%);
+  
+  background-image: linear-gradient(180deg, rgba(115,193,230,1) 0%, rgba(115,230,230,1) 50%, rgba(69,91,252,1) 100%);
+  
+  
+  color: #202124;
+  
+  @media (max-width: 975px) {
+    z-index: 1;
+  }
+  
+  .wave-bottom {
+    z-index: 1;
+    
+    path {
+      fill: #0d0d0d;
+    }
+  }
+
+  .tint-color {
+    color: #fff;
+  }
+  
+  p, a {
+    border-color: rgba(198, 0, 0, 0.3);
+    
+    &:hover {
+     border-color: rgba(198, 0, 0, 1); 
+    }
+  }
+
+  .external-link:hover {
+    border-color: #fff;
+  }
+
+  .main-content-wrapper {
+    align-items: center;
+    padding: 60px 0 186px 0;
+
+    @media (max-width: 975px) {
+      flex-direction: column;
+      align-items: center;
+      min-height: 400px;
+      padding-bottom: 100px;
+    }
+
+    @media (max-width: 780px) {
+      align-items: flex-start;
+    }
+
+    @media (max-width: 469px) {
+      min-height: 500px;
+      padding-bottom: 10px;
+    }
+  }
+
+  .showcase {
+    position: relative;
+    margin-top: 40px;
+    left: -20px;
+    transform: scale(.8);
+    transform-origin: top left;
+    top: 100px;
+    min-height: 460px;
+    
+    @media (min-width: 475px) {
+      transform: scale(0.9);
+      top: 20px;
+      left: -40px;
+      min-height: auto;
+    }
+
+    @media (min-width: 975px) {
+      transform: scale(1, 1);
+      top: -70px;
+    }
+  }
+
+  .card {
+    position: absolute;
+    width: auto;
+    height: auto;
+    overflow: hidden;
+    background-size: cover;
+    background-color: transparent;
+    
+    &:first-of-type {
+      position: relative;
+    }
+  
+    &:nth-child(1) {
+      top: 120px;
+      left: 100px;
+      height: 316px;
+      width: 500px;
+      background-image: url(/assets/jenny-ueberberg-BaSeK7rwc1A-unsplash.jpg);
+      background-size: auto 100%;
+      background-repeat: no-repeat;
+      background-position: center;
+      
+      
+      transform: scale(1, 1) rotate(4deg);
+      box-shadow: none;
+      
+      &:hover {
+        transform: scale(1.1, 1.1) translateY(-16px) rotate(0deg);
+      }
+
+
+      @media (max-width: 520px) { 
+        top: 148px;
+        left: 34px;
+
+      }
+    }
+
+    &:nth-child(2) {
+      top: -40px;
+      left: 36px;
+      background-image: url(/assets/magnus-andersson-0tODL-2pO1Y-unsplash.jpg);
+      background-size: auto 100%;
+      background-repeat: no-repeat;
+      background-position: center;
+
+
+      @media (max-width: 520px) { 
+        
+        top: -126px;
+        left: 89px;
+    
+    
+          }
+    }
+  }
+  
+  .hero-card {
+    box-shadow: none;
+    transform: scale(1);
+    height: 320px;
+    width: 320px;
+  }
+}

@@ -1,0 +1,112 @@
+.netlify {
+  position: relative;
+  z-index: 3;
+
+  @media (min-width: 975px) {
+    margin: -104px 0 -40px;
+  }
+
+  .tint-color {
+    color: #009387;
+  }
+
+  .external-link:hover {
+    border-color: #00ad9f;
+  }
+  
+  p, a {
+    border-color: rgba(0, 173, 159, 0.3);
+    
+    &:hover {
+     border-color: rgba(0, 173, 159, 1);
+    }
+  }
+  
+  .wave-bottom {
+    z-index: 1;
+    
+    path {
+      fill: #F4D7C7;
+    }
+  }
+
+  .main-content-wrapper {
+    align-items: center;
+    min-height: 730px;
+
+    @media (max-width: 975px) {
+      flex-direction: column;
+      align-items: center;
+      min-height: 900px;
+      margin-bottom: -40px;
+      padding-bottom: 0px;
+    }
+
+    @media (max-width: 780px) {
+      align-items: flex-start;
+    }
+
+    @media (max-width: 469px) {
+      min-height: 790px;
+      padding-bottom: 10px;
+    }
+  }
+
+  .showcase {
+    position: relative;
+    margin-top: 40px;
+    left: -20px;
+    top: -70px;
+    transform: scale(1, 1);
+    transform-origin: top left;
+    z-index: 2;
+    
+    @media (max-width: 975px) {
+      transform: scale(.8);
+    }
+
+    @media (max-width: 469px) {
+      margin-top: 204px;
+    }
+  }
+
+  .card {
+    position: absolute;
+    background-size: cover;
+
+    &:first-of-type {
+      position: relative;
+    }
+
+    &:nth-child(1) {
+      top: -160px;
+      left: -19px;
+      background-image: url(/assets/soundtrap-UKyJ3rWHNt8-unsplash.jpg);
+    }
+
+    &:nth-child(2) {
+      top: -92px;
+      left: 274px;
+      background-image: url(/assets/nathan-dumlao-kLmt1mpGJVg-unsplash.jpg);
+      background-position: center;
+    }
+
+    &:nth-child(3) {
+      top: 123px;
+      left: 70px;
+      background-image: url(/assets/jenny-ueberberg-9buV9yJc7co-unsplash.jpg);
+    }
+
+    &:nth-child(4) {
+      top: 160px;
+      left: 290px;
+      background-image: url(/assets/dribbble-netlify-logo.jpg);
+    }
+
+    &:nth-child(5) {
+      top: 330px;
+      left: 50px;
+      background-image: url(/assets/dribbble-icons.gif);
+    }
+  }
+}

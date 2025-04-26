@@ -1,0 +1,152 @@
+.big-hero-six {
+  display: flex;
+  position: absolute;
+  height: 600px;
+  top: -60px;
+  background: white;
+  z-index: 1;
+  margin-bottom: 164px;
+
+  p {
+    margin: 0;
+
+    &:first-of-type {
+      position: relative;
+      left: 3px;
+    }
+
+    &:last-of-type {
+      position: relative;
+      left: 3px;
+      top: 4px;
+
+      @media (minx-width: 520px) {
+        top: 8px;
+      }
+    }
+  }
+
+  .background {
+    position: absolute;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* width: 100vw; */
+    max-width: 1440px;
+    margin: auto;
+    background: #fff;
+    /* bottom: -164px; */
+    z-index: 2;
+    overflow: hidden;
+    left: 50%;
+
+  }
+
+  .main-content-wrapper {
+    align-items: center;
+    justify-content: flex-start;
+    z-index: 3;
+  }
+
+  video {
+    position: relative;
+    z-index: 1;
+    width: 101%;
+    flex: none;
+    background: linear-gradient(to top, #FFA000, #FFA000 25% , #fff 25%, #fff 25%);
+    opacity: 0.99 
+    /* // Helps with blending the video with the section below */
+  }
+  
+  .custom-wave {
+    display: block;
+    position: absolute;
+    z-index: 1;
+    top: 445px;
+    width: 100vw;
+    height: 400px;
+    background: #FFA000;
+    
+    path,
+    rect {
+      fill: white;
+      }
+    }
+}
+
+.memoji {
+  display: none;
+  height: 60px;
+  margin-right: 10px;
+}
+
+#unecessary-part-of-name {
+  animation: 10s ease-in-out 1s fade-away;
+  animation-fill-mode: forwards;
+}
+
+@keyframes fade-away {
+  from { opacity: 1; }
+  to { opacity: 0.1; }
+}
+
+/* Some switcharoos on what to show on the hero, depending on the size */
+
+@media (max-width: 780px) {
+  .big-hero-six {
+    color: #0e1e25;
+    z-index: 2;
+   
+    .background {
+      background: #fff;
+   }
+   
+   .custom-wave {
+     display: none;
+   }
+ }
+}
+
+@media (max-width: 975px) {
+
+
+  .big-hero-six .main-content-wrapper {
+    top: -134px;
+
+  }
+  .big-hero-six .background {
+    bottom: -107px;
+    left: 15%;
+
+   
+  }
+}
+
+@media (max-width: 624px) {
+  .big-hero-six h1 {
+    font-size: 11vw;
+  }
+}
+
+@media (max-width: 520px) {
+  
+  .big-hero-six .main-content-wrapper {
+    align-items: start;
+    top: -208px;
+
+    justify-content: flex-start;
+    font-size: 16px;
+  }
+
+  .big-hero-six h1 {
+    font-size: 42px;
+    margin: 4px 0 4px 0;
+  }
+
+
+  .big-hero-six .background {
+   
+    bottom: -64px;
+    left: -33%;
+  }
+}
