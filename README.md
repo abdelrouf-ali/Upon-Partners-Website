@@ -4,10 +4,10 @@ If you wish to run this site locally, clone it, and run:
 
 ```bash
 # install the dependencies
-yarn
+npm install
 
 # run the build server with live reload
-yarn start
+npm start
 ```
 
 
